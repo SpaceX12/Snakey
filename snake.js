@@ -8,6 +8,11 @@ class Snake{
 
     }
 
+    dir(x, y){
+        this.xspeed = x;
+        this.yspeed = y;
+    }
+
     update(){
         this.x = this.x + this.xspeed;
         this.y = this.y + this.yspeed;
